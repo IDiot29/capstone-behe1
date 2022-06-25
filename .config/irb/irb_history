@@ -1,0 +1,4 @@
+User.all
+exit
+u = User.new(username: "adit", password: "password")
+u.save
