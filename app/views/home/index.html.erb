@@ -1,12 +1,22 @@
 <% if current_user %>
  Logged in as <%= current_user.email %>.
- <%= link_to 'Log Out', logout_path %>
+ <%= link_to 'Log Out', logout_path %><br />
 <% else %>
  <%= link_to 'Sign Up', signup_path %> or
  <%= link_to 'Log In', login_path %>
 <% end %>
+
+<% if current_user %>
 <p id='notice'><%= notice %></p>
-<h1>Welcome</h1>
-<p>Lorem ipsum …</p>
+<h1>Welcome <%= current_user.name %> </h1>
+<% end %>
+
+  <% if current_user %>
+ <p> Do you want to Completed your profile??</p>
+ <%= link_to 'Profile', profiles_path %> 
+<% else %>
+<% end %>
+
+  <h2>If you want to read the article you can klik below …</h2>
   <%= link_to 'Articles', articles_path %>
   
