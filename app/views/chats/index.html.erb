@@ -1,0 +1,10 @@
+<h1>Konsultasi dengan Dokter</h1>
+
+<ul>
+  <% @chats.each do |chat| %>
+    <li>
+      <%= chat.doctor %><br>
+      <a href="https://wa.me/<%= chat.number %>">Chat Dokter</a>
+    </li>
+  <% end %>
+</ul>
