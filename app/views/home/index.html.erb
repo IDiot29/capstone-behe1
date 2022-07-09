@@ -18,7 +18,10 @@
 <% end %>
 
   <h2>If you want to read the article you can klik below …</h2>
-  <%= link_to 'Articles', articles_path %><br>
+  <%= link_to 'Articles', articles_path %></br>
 
+<% if current_user %>
   <a href="/chats">Chat Dokter</a>
+<% else %>
+<% end %>
   
