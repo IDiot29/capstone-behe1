@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   resources :profiles
   resources :articles
+  resources :chats
+  
   get 'home/index'
   #get 'sessions/new'
   #get 'sessions/create'
