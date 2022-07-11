@@ -7,20 +7,20 @@
 * Personal Discussion
 
 ## How to Use
+link Application: https://capstone-be-he1.herokuapp.com/
 ### registration
 * Open the website and choose the "sign up" text for register
 * Enter the email that you want to register dan complete the form
 * Then click "Create User"
-* After we have succesfully  sign up, the next thing we can do is fill in the profile by going to the "Profile" menu.
-* Fill in personal data such as full name, Date of birth, gender, wight, and heigth, and after that it's done.
+* After we have successfully registered, we will return to the home page, after that we can login to enter the account we have created and complete the profile by going to the "Profile" menu
+* Fill in personal data such as full name, date of birth, gender, weight, and height, and after that it's done.
 ### Malnutrition Article
-* After signing up or logging in on the homepage there is an article menu
-* Choose the article menu on the home menu,
+* Open the website and choose the article menu on the home menu
 * After selecting the malnutrition article menu, you will be taken to a view of several articles related to malnutrition,
 * You can alse write the articles by selecting create article or pressing the new article button
 * After that, you can choose which article you want to read according to your current need by selecting the show this article button.
 ### Personal Discussion
-* After signing up or logging in on the homepage there is an personal discoussion menu
+* After signing up and logging in on the homepage there is an personal discoussion menu
 * Choose the doctor you want to contact
 * It will immediately take you to the whatsapp application to consult the doctor you want to contact.
 * After that you can consult regarding the condition you are currently experiencing with the doctor
